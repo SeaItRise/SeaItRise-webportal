@@ -20,7 +20,8 @@ install:
 # command to run tests
 script:
   - py.test -c pytest_ci.ini tests/
-  - prospector  --profile-path=. --profile=.prospector.yml --path=src --ignore-patterns=static
+  # prospector currently not working
+  # - prospector  --profile-path=. --profile=.prospector.yml --path=src --ignore-patterns=static
   - bandit -r src
   - npm run coverage
   - npm run lintjs
