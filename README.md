@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Seedstars/django-react-redux-base.svg?branch=master)](https://travis-ci.org/Seedstars/django-react-redux-base)
+[![Build Status](https://api.travis-ci.org/SeaItRise/SeaItRise-webportal.svg?branch=master)](https://travis-ci.org/SeaItRise/SeaItRise-webportal)
 
 # SeaItRise-webportal
 
